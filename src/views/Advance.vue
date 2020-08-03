@@ -295,10 +295,10 @@
       <footer class="footer">
         <div class="container">
           <div class="row row-grid align-items-center mb-4">
-            <div class="col-lg-6">
-              <img src="/img/ejoya/ejoya-white.svg" alt />
+            <div class="col-lg-6 col-4">
+              <img src="/img/ejoya/ejoya-white.svg" class="img-fluid" alt />
             </div>
-            <div class="col-lg-6 text-lg-center btn-wrapper">
+            <div class="col-lg-6 col-8 text-lg-center btn-wrapper">
               <ul class="nav nav-footer justify-content-end">
                 <li class="nav-item">
                   <a
@@ -311,7 +311,7 @@
               </ul>
             </div>
           </div>
-          <div class="row align-items-center justify-content-md-between">
+          <div class="row">
             <div class="col-md-4">
               <div class="copyright text-white">
                 ©
