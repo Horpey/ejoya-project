@@ -39,7 +39,7 @@
             <div class="row">
               <div class="col-md-3">
                 <div class="text-center">
-                  <img src="/img/ejoya/search.svg" class="mb-3" alt />
+                  <img src="/img/ejoya/apply.svg" class="mb-3" alt />
                   <h6 class="text-bold text-sec">You apply</h6>
                   <p class="small text-white">
                     We understand the struggle and have set the bar as low as possible so If
