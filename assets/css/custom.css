@@ -41,7 +41,7 @@ body {
   line-height: 27px;
 }
 .shape-banner {
-  background: linear-gradient(45deg, black, black, #0000006b),
+  background: linear-gradient(45deg, black, #000000b8, #0000006b),
     url(../img/ejoya/12478.png);
   background-position: center;
   background-size: cover;
