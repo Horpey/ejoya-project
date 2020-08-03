@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Octarine";
+  src: url("../fonts/OctarineFree/Octarine-Light.otf") format("woff2");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Octarine-Bold";
+  src: url("../fonts/OctarineFree/Octarine-Bold.otf") format("woff2");
+  font-weight: bold;
+}
+html {
+  scroll-behavior: smooth;
+}
+.text-bold {
+  font-family: "Octarine-Bold" !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button,
+input,
+html,
+body {
+  font-family: "Octarine", sans-serif !important;
+}
+
+.bg-black {
+  background-color: black !important;
+}
+.headingln {
+  line-height: 70px !important;
+}
+.tt-2 {
+  margin-top: 13px;
+  font-size: 21px;
+  line-height: 27px;
+}
+.shape-banner {
+  background: linear-gradient(45deg, black, black, #0000006b),
+    url(../img/ejoya/12478.png);
+  background-position: center;
+  background-size: cover;
+}
+.mvmusic {
+  color: #d5043e;
+  font-size: 30px;
+  font-family: "Octarine-Bold" !important;
+}
+.text-sec {
+  color: #d5043e !important;
+}
+.section-calc {
+  color: white;
+  background-color: black;
+  background-image: url(../img/ejoya/pattern.svg);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat-y: no-repeat;
+  padding-bottom: 9rem !important;
+}
+.btn-sec {
+  background-color: #d5043e !important;
+  border-color: #d5043e !important;
+}
+.freqcount {
+  background: #d5053e;
+  color: white;
+  margin-right: 16px;
+  width: 30px;
+  text-align: center;
+  border-radius: 33px;
+  height: 30px;
+  line-height: 2;
+}
+.footer {
+  background: #d5043e !important;
+  padding: 3.5rem 0 !important;
+}
+.text-white {
+  color: white !important;
+}
+.btn-icon-only {
+  line-height: 8px !important;
+}
+.modal-body {
+  color: black !important;
+}
