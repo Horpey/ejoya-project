@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="bg-black">
-        <img src="/img/ejoya/musicwave.svg" class="img-fluid" alt />
+        <img src="/img/ejoya/musicwave.svg" style="width: 100%;" class="img-fluid" alt />
       </div>
       <div class="section features-6 bg-black" id="how-it-works">
         <div class="container">
