@@ -425,7 +425,8 @@ export default {
         spotifyProfileUrl: "",
         email: "",
         phoneNumber: "",
-        amountNeeded: ""
+        amountNeeded: "",
+        averageMonthIncome: ""
       }
     };
   },
@@ -455,6 +456,7 @@ export default {
     },
     submitDetails() {
       this.formDetails.date = this.getTime();
+      this.formDetails.averageMonthIncome = this.amount;
       let userdata = {
         advanceFund: this.formDetails
       };
