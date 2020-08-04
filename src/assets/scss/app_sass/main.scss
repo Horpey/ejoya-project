@@ -68,7 +68,8 @@ body {
 }
 
 .headingln {
-  line-height: 70px !important;
+  line-height: 75px !important;
+  letter-spacing: 2px;
 }
 
 .tt-2 {
@@ -147,6 +148,7 @@ a.btn-icon-only {
 
 @media (min-width: 768px) {
   .section-hero {
-    height: 79vh !important;
+    // height: 60vh !important;
+    height: 550px !important;
   }
 }

@@ -11,9 +11,9 @@
                 <div class="col-lg-7">
                   <h1
                     class="text-white text-bold headingln"
-                    style="font-size: 77px;"
+                    style="font-size: 68px;"
                   >Artiste advance fund.</h1>
-                  <p class="text-white tt-2">
+                  <p class="text-white tt-2 mt-4">
                     Talent is never enough, you need
                     <br />opportunities
                     to
@@ -139,7 +139,7 @@
                   <div class="modal-body text-left">
                     <p
                       class="small"
-                    >Nice, you are one step closer to cash. Tell us more about you so we may review your advace. After you submit, we'll verify your earnings and reach out with next steps!</p>
+                    >Nice, you are one step closer to cash. Tell us more about you so we may review your advance. After you submit, we'll verify your earnings and reach out with next steps!</p>
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
@@ -279,7 +279,7 @@
                       Income: you must be earning as low as $100 monthly or more from digital streams
                       to be eligible Distribution: If you are not already distributing through Ejoya, you must agree to
                       transfer your catalog to Ejoya before an advance can be issued. We are available to provide
-                      advisory support If you are locked into a contract, please do contact us advance@ejoya.co
+                      advisory support If you are locked into a contract, please do contact us <a class="text-sec" href="mailto:advance@ejoya.co" target="_blank">advance@ejoya.co</a>
                     </p>
                   </div>
                 </div>
@@ -378,7 +378,7 @@
             </div>
             <div class="col-md-4">
               <ul class="nav nav-footer justify-content-end">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a
                     href
                     class="nav-link"
@@ -394,7 +394,7 @@
                     style="color: white!important;"
                     target="_blank"
                   >Privacy Policy</a>
-                </li>
+                </li>-->
               </ul>
             </div>
           </div>
@@ -438,7 +438,7 @@ export default {
   methods: {
     calFund() {
       if (this.validateAmt(this.amount)) {
-        if (this.amount >= 100) {
+        if (this.amount >= 100 && this.amount <= 50000) {
           this.notValid = false;
           this.apply = true;
           this.minAmt = 8 * this.amount;
