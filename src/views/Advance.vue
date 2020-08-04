@@ -178,7 +178,7 @@
                         <div class="form-group">
                           <label>Spotify Profile URL</label>
                           <input
-                            v-model="formDetails.spotifyProfile"
+                            v-model="formDetails.spotifyProfileUrl"
                             class="form-control"
                             type="url"
                           />
@@ -211,7 +211,7 @@
                           <label>How much do you need?</label>
                           <input
                             required
-                            v-model="formDetails.amount"
+                            v-model="formDetails.amountNeeded"
                             class="form-control"
                             type="text"
                           />
@@ -422,10 +422,10 @@ export default {
         firstName: "",
         lastName: "",
         artistName: "",
-        spotifyProfile: "",
+        spotifyProfileUrl: "",
         email: "",
         phoneNumber: "",
-        amount: ""
+        amountNeeded: ""
       }
     };
   },
@@ -472,10 +472,10 @@ export default {
             firstName: "",
             lastName: "",
             artistName: "",
-            spotifyProfile: "",
+            spotifyProfileUrl: "",
             email: "",
             phoneNumber: "",
-            amount: ""
+            amountNeeded: ""
           };
           this.amount = "";
           this.applyModal = false;

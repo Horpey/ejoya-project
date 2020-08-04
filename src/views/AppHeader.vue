@@ -1,7 +1,13 @@
 <template>
   <header class="header-global">
     <!-- Add 'fixednavbar' for fixed nav -->
-    <base-nav class="navbar-main position-fixed" transparent type effect="light" expand>
+    <base-nav
+      class="navbar-main position-fixed bg-black py-1"
+      transparent
+      type
+      effect="light"
+      expand
+    >
       <a slot="brand" class="navbar-brand mr-lg-5" href="#">
         <img src="/img/ejoya/ejoya.svg" alt="logo" />
       </a>
