@@ -9,7 +9,10 @@
             <div class="col px-0">
               <div class="row">
                 <div class="col-lg-7">
-                  <h1 class="text-white display-1 text-bold headingln">Artiste advance fund.</h1>
+                  <h1
+                    class="text-white text-bold headingln"
+                    style="font-size: 77px;"
+                  >Artiste advance fund.</h1>
                   <p class="text-white tt-2">
                     Talent is never enough, you need
                     <br />opportunities
@@ -39,7 +42,7 @@
             <div class="row">
               <div class="col-md-3">
                 <div class="text-center">
-                  <img src="/img/ejoya/apply.svg" class="mb-3" alt />
+                  <img src="/img/ejoya/apply.svg" class="mb-3" height="63" alt />
                   <h6 class="text-bold text-sec">You apply</h6>
                   <p class="small text-white">
                     We understand the struggle and have set the bar as low as possible so If
@@ -49,7 +52,7 @@
               </div>
               <div class="col-md-3">
                 <div class="text-center">
-                  <img src="/img/ejoya/search.svg" class="mb-3" alt />
+                  <img src="/img/ejoya/search.svg" class="mb-3" height="63" alt />
                   <h6 class="text-bold text-sec">We review</h6>
                   <p class="small text-white">
                     We attend swifyly to your application and discuss clear terms because your
@@ -59,17 +62,17 @@
               </div>
               <div class="col-md-3">
                 <div class="text-center">
-                  <img src="/img/ejoya/money.svg" class="mb-3" alt />
+                  <img src="/img/ejoya/money.svg" class="mb-3" height="63" alt />
                   <h6 class="text-bold text-sec">Get your advance</h6>
                   <p class="small text-white">
-                    You will be able to access yp to 12 months of advance on your stream
+                    You will be able to access up to 12 months of advance on your stream
                     earning no collateral
                   </p>
                 </div>
               </div>
               <div class="col-md-3">
                 <div class="text-center">
-                  <img src="/img/ejoya/earn.svg" class="mb-3" alt />
+                  <img src="/img/ejoya/earn.svg" class="mb-3" height="63" alt />
                   <h6 class="text-bold text-sec">Earn while you pay back</h6>
                   <p class="small text-white">
                     You will be able to choose what percentage of your monthly earning is
@@ -93,7 +96,9 @@
                   type="text"
                   required
                   placeholder="$100"
+                  :disabled="apply"
                   class="form-control form-control-lg text-bold"
+                  style="color: black"
                 />
 
                 <div v-if="notValid" class="alert alert-info mt-3 py-2">
@@ -110,6 +115,10 @@
                 <div class="mt-4 text-white" v-else>
                   <p class="mb-0 opacity-5 text-white">Advance Range</p>
                   <h3 class="text-bold text-white">${{minAmt}} - ${{maxAmt}}</h3>
+                  <button
+                    @click="apply = false"
+                    class="btn btn-link text-capitalize text-sec pt-4"
+                  >Cancel</button>
                   <button
                     class="btn btn-sec btn-primary mt-3 px-5"
                     data-toggle="modal"
@@ -267,7 +276,7 @@
                   <div class="media-body">
                     <h6 class="text-bold text-sec">What are the eligibilty requirements?</h6>
                     <p class="small text-white">
-                      Income: you must be earning as low as $100 or more from digital streams
+                      Income: you must be earning as low as $100 monthly or more from digital streams
                       to be eligible Distribution: If you are not already distributing through Ejoya, you must agree to
                       transfer your catalog to Ejoya before an advance can be issued. We are available to provide
                       advisory support If you are locked into a contract, please do contact us advance@ejoya.co
@@ -327,9 +336,9 @@
             </div>
             <div class="col-md-4">
               <div class="text-center">
-                <button
+                <a
                   target="_blank"
-                  href="#"
+                  href="https://twitter.com/EjoyaMusic?s=09"
                   rel="nofollow"
                   class="btn btn-icon-only btn-twitter rounded-circle"
                   data-toggle="tooltip"
@@ -338,10 +347,10 @@
                   <span class="btn-inner--icon">
                     <i class="fa fa-twitter"></i>
                   </span>
-                </button>
-                <button
+                </a>
+                <a
                   target="_blank"
-                  href="#"
+                  href="https://m.facebook.com/ejoyamusic"
                   rel="nofollow"
                   class="btn-icon-only rounded-circle btn btn-facebook"
                   data-toggle="tooltip"
@@ -350,19 +359,19 @@
                   <span class="btn-inner--icon">
                     <i class="fa fa-facebook"></i>
                   </span>
-                </button>
-                <button
+                </a>
+                <a
                   target="_blank"
-                  href="#"
+                  href="https://www.instagram.com/ejoyamusic/?igshid=tg8hv5n67094"
                   rel="nofollow"
-                  class="btn-icon-only rounded-circle btn btn-facebook"
+                  class="btn-icon-only rounded-circle btn btn-instagram"
                   data-toggle="tooltip"
                   data-original-title="Like us"
                 >
                   <span class="btn-inner--icon">
                     <i class="fa fa-instagram"></i>
                   </span>
-                </button>
+                </a>
 
                 <p class="text-white text-bold mb-0 mt-2">move your music</p>
               </div>

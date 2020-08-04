@@ -1,5 +1,5 @@
 <template>
-  <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-dark navv fixedbarr">
+  <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-dark navv">
     <div class="container">
       <div class="row mx-auto fullwidth">
         <div class="col-5">

@@ -78,7 +78,7 @@ body {
 }
 
 .shape-banner {
-  background: linear-gradient(45deg, black, #000000b8, #0000006b), url(/img/ejoya/12478.png);
+  background: linear-gradient(45deg, black, #00000000, #0000006b), url(/img/ejoya/12478.png);
   background-position: center;
   background-size: cover;
 }
@@ -134,6 +134,10 @@ body {
 
 .modal-body {
   color: black !important;
+}
+
+a.btn-icon-only {
+  line-height: 2.9 !important;
 }
 
 @media (min-width: 768px) {
