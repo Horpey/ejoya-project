@@ -91,13 +91,14 @@ body {
 
 .tt-2 {
   margin-top: 13px;
-  font-size: 21px;
-  line-height: 27px;
+  font-size: 32px;
+  // line-height: 27px;
 }
 
 .shape-banner {
-  background: linear-gradient(45deg, black, #00000000, #0000006b),
-    url(/img/ejoya/12478.png);
+  // background: linear-gradient(45deg, black, #00000000, #0000006b),
+  //   url(/img/ejoya/12478.png);
+  background: url(/img/ejoya/12478.png);
   background-position: center;
   background-size: cover;
 }
@@ -168,6 +169,7 @@ a.btn-icon-only {
     // height: 60vh !important;
     height: 615px !important;
   }
+
   .container-fluid {
     padding-right: 100px !important;
     padding-left: 100px !important;

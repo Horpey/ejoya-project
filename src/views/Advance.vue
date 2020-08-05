@@ -46,7 +46,7 @@
                 <div class="text-center">
                   <img src="/img/ejoya/apply.svg" class="mb-3" height="63" alt />
                   <h6 class="text-bold text-sec">You apply</h6>
-                  <p class="small text-white">
+                  <p class="text-white gills-font">
                     We understand the struggle and have set the bar as low as possible so If
                     your average monthly earning is $100 and above, you are welcome to apply!
                   </p>
@@ -56,7 +56,7 @@
                 <div class="text-center">
                   <img src="/img/ejoya/search.svg" class="mb-3" height="63" alt />
                   <h6 class="text-bold text-sec">We review</h6>
-                  <p class="small text-white">
+                  <p class="gills-font text-white">
                     We attend swifyly to your application and discuss clear terms because your
                     trust is very important to us.
                   </p>
@@ -66,7 +66,7 @@
                 <div class="text-center">
                   <img src="/img/ejoya/money.svg" class="mb-3" height="63" alt />
                   <h6 class="text-bold text-sec">Get your advance</h6>
-                  <p class="small text-white">
+                  <p class="gills-font text-white">
                     You will be able to access up to 12 months of advance on your stream
                     earning no collateral
                   </p>
@@ -76,7 +76,7 @@
                 <div class="text-center">
                   <img src="/img/ejoya/earn.svg" class="mb-3" height="63" alt />
                   <h6 class="text-bold text-sec">Earn while you pay back</h6>
-                  <p class="small text-white">
+                  <p class="gills-font text-white">
                     You will be able to choose what percentage of your monthly earning is
                     devoted to the repayment of the advance.
                   </p>
@@ -89,7 +89,7 @@
       <div class="section section-calc text-center" id="apply">
         <div class="container-fluid">
           <h2 class="text-white text-bold">Advance Fund Applications</h2>
-          <p>What is your average monthly income from your streams?</p>
+          <p class="gills-font">What is your average monthly income from your streams?</p>
           <div class="row justify-content-center">
             <div class="col-md-4">
               <form @submit.prevent="calFund">
@@ -249,7 +249,7 @@
                   <p class="pull-left freqcount" href="#">1</p>
                   <div class="media-body">
                     <h6 class="text-bold text-sec">What is Ejoya AAF</h6>
-                    <p class="small text-white">
+                    <p class="gills-font text-white">
                       With the artist advance fund, you will be able to access your advances
                       from a one stop dashboard (advance.ejoya.co) where your applications can be made. Repayment will
                       be made on a monthly basis with a pre-agreed flat fee till the advance is paid off in its
@@ -264,7 +264,7 @@
                   <p class="pull-left freqcount" href="#">2</p>
                   <div class="media-body">
                     <h6 class="text-bold text-sec">Do you own the rights to my music?</h6>
-                    <p class="small text-white">
+                    <p class="gills-font text-white">
                       Accessing the fund does not infringe on your copyrights, neither would
                       we be soliciting for the ownership of your masters.
                     </p>
@@ -277,7 +277,7 @@
                   <p class="pull-left freqcount" href="#">3</p>
                   <div class="media-body">
                     <h6 class="text-bold text-sec">What are the eligibilty requirements?</h6>
-                    <p class="small text-white">
+                    <p class="gills-font text-white">
                       Income: you must be earning as low as $100 monthly or more from digital streams
                       to be eligible Distribution: If you are not already distributing through Ejoya, you must agree to
                       transfer your catalog to Ejoya before an advance can be issued. We are available to provide
@@ -296,7 +296,7 @@
                   <p class="pull-left freqcount" href="#">4</p>
                   <div class="media-body">
                     <h6 class="text-bold text-sec">How do I repay the advance?</h6>
-                    <p class="small text-white">
+                    <p class="gills-font text-white">
                       When you agree to an advance, a payback contribution percentage is
                       fixed. We will deduct the set percentage from your earning and pay you the rest. Financial
                       statements will be sent to you monthly
