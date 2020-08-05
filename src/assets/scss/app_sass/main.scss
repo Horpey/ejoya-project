@@ -163,8 +163,8 @@ a.btn-icon-only {
   color: black !important;
 }
 .container-fluid {
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 100px !important;
+  padding-left: 100px !important;
 }
 
 @media (min-width: 768px) {
