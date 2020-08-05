@@ -162,14 +162,14 @@ a.btn-icon-only {
 .form-control {
   color: black !important;
 }
-.container-fluid {
-  padding-right: 100px !important;
-  padding-left: 100px !important;
-}
 
 @media (min-width: 768px) {
   .section-hero {
     // height: 60vh !important;
-    height: 550px !important;
+    height: 615px !important;
+  }
+  .container-fluid {
+    padding-right: 100px !important;
+    padding-left: 100px !important;
   }
 }
