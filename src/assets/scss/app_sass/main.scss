@@ -10,6 +10,23 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Gills";
+  src: url("/fonts/Gills/GillSansMTPro-Medium.otf") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gills";
+  src: url("/fonts/Gills/GillSansMTPro-Bold.otf") format("woff2");
+  font-weight: bold;
+}
+
+.gills-font,
+p {
+  font-family: "Gills", sans-serif !important;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: "Octarine", sans-serif !important;
@@ -79,7 +96,8 @@ body {
 }
 
 .shape-banner {
-  background: linear-gradient(45deg, black, #00000000, #0000006b), url(/img/ejoya/12478.png);
+  background: linear-gradient(45deg, black, #00000000, #0000006b),
+    url(/img/ejoya/12478.png);
   background-position: center;
   background-size: cover;
 }
@@ -87,7 +105,7 @@ body {
 .mvmusic {
   color: #d5043e;
   font-size: 30px;
-  font-family: "Octarine-Bold" !important;
+  font-weight: bold;
 }
 
 .text-sec {
@@ -141,9 +159,12 @@ a.btn-icon-only {
   line-height: 2.9 !important;
 }
 
-
 .form-control {
   color: black !important;
+}
+.container-fluid {
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 @media (min-width: 768px) {

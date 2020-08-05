@@ -5,7 +5,7 @@
       <div class="section section-hero section-shaped my-0">
         <div class="shape shape-style-3 shape-banner"></div>
         <div class="page-header">
-          <div class="container shape-container d-flex align-items-center py-lg">
+          <div class="container-fluid shape-container d-flex align-items-center py-lg">
             <div class="col px-0">
               <div class="row">
                 <div class="col-lg-7">
@@ -13,11 +13,13 @@
                     class="text-white text-bold headingln"
                     style="font-size: 68px;"
                   >Artiste advance fund.</h1>
-                  <p class="text-white tt-2 mt-4">
+                  <p class="text-white tt-2 mt-4 gills-font">
                     Talent is never enough, you need
                     <br />opportunities
                     to
-                    <span class="mvmusic">move your music.</span>
+                    <span
+                      class="mvmusic gills-font"
+                    >move your music.</span>
                   </p>
                 </div>
               </div>
@@ -29,7 +31,7 @@
         <img src="/img/ejoya/musicwave.svg" style="width: 100%;" class="img-fluid" alt />
       </div>
       <div class="section features-6 bg-black" id="how-it-works">
-        <div class="container">
+        <div class="container-fluid">
           <div class="text-center mt-5">
             <h2 class="text-white text-bold">
               Focus on your
@@ -85,7 +87,7 @@
         </div>
       </div>
       <div class="section section-calc text-center" id="apply">
-        <div class="container">
+        <div class="container-fluid">
           <h2 class="text-white text-bold">Advance Fund Applications</h2>
           <p>What is your average monthly income from your streams?</p>
           <div class="row justify-content-center">
@@ -236,7 +238,7 @@
         </div>
       </div>
       <div class="section features-6 bg-black" id="faq">
-        <div class="container">
+        <div class="container-fluid">
           <div class="text-center mt-5">
             <h2 class="text-white text-bold">Frequently Asked Questions</h2>
           </div>
@@ -279,7 +281,12 @@
                       Income: you must be earning as low as $100 monthly or more from digital streams
                       to be eligible Distribution: If you are not already distributing through Ejoya, you must agree to
                       transfer your catalog to Ejoya before an advance can be issued. We are available to provide
-                      advisory support If you are locked into a contract, please do contact us <a class="text-sec" href="mailto:advance@ejoya.co" target="_blank">advance@ejoya.co</a>
+                      advisory support If you are locked into a contract, please do contact us
+                      <a
+                        class="text-sec"
+                        href="mailto:advance@ejoya.co"
+                        target="_blank"
+                      >advance@ejoya.co</a>
                     </p>
                   </div>
                 </div>
@@ -302,7 +309,7 @@
         </div>
       </div>
       <footer class="footer">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row row-grid align-items-center mb-4">
             <div class="col-lg-6 col-4">
               <img src="/img/ejoya/ejoya-white.svg" class="img-fluid" alt />
