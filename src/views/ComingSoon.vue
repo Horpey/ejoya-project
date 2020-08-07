@@ -14,14 +14,32 @@
                   <h1
                     class="text-white mt-5 text-bold headingln headlnsm"
                   >We are building something exciting for all artistes.</h1>
-                  <p class="text-white tt-2 mt-5 gills-font introsm">Be the first to know when we launch</p>
-                  <form class="form-inline fminlinesm">
-                      <div class="form-group">
-                          <label for=""></label>
-                          <input type="text" name="" id="" class="form-control gills-font ejinput" placeholder="Email Address" aria-describedby="helpId">
-                         <button class="btn btn-primary ml-3 text-capitalize gills-font btn-theme">Subscribe</button>
-                      </div>
+                  <p
+                    class="text-white tt-2 mt-5 gills-font introsm"
+                  >Be the first to know when we launch</p>
+                  <form @submit.prevent="submitDetails" class="form-inline fminlinesm">
+                    <div class="form-group">
+                      <label for></label>
+                      <input
+                        type="email"
+                        v-model="formDetails.emailAddress"
+                        class="form-control gills-font ejinput"
+                        placeholder="Email Address"
+                        aria-describedby="helpId"
+                      />
+                      <button
+                        :disabled="loading"
+                        class="btn btn-primary ml-3 text-capitalize gills-font btn-theme"
+                      >
+                        <span v-if="loading">Sending details...</span>
+                        <span v-else>Subscribe</span>
+                      </button>
+                    </div>
                   </form>
+                  <p class="text-white mt-3 gills-font">
+                    <span class="opacity-5 pr-2">Interested in getting Artist Advance Fund?</span>
+                    <router-link class="font-weight-bold text-white" to="/advance">Get Started</router-link>
+                  </p>
                 </div>
               </div>
             </div>
@@ -78,81 +96,42 @@ import axios from "axios";
 export default {
   data() {
     return {
-      amount: "",
-      notValid: false,
-      minAmt: "",
-      maxAmt: "",
-      apply: false,
-      sending: false,
-      alertMsg: "",
-      applyModal: false,
+      email: "",
+      loading: false,
       formDetails: {
-        firstName: "",
-        lastName: "",
-        artistName: "",
-        spotifyProfileUrl: "",
-        email: "",
-        phoneNumber: "",
-        amountNeeded: "",
-        averageMonthIncome: "",
+        date: "",
+        emailAddress: "",
       },
     };
   },
   components: {},
   mounted() {},
   methods: {
-    calFund() {
-      if (this.validateAmt(this.amount)) {
-        if (this.amount >= 100 && this.amount <= 50000) {
-          this.notValid = false;
-          this.apply = true;
-          this.minAmt = 8 * this.amount;
-          this.maxAmt = 10 * this.amount;
-        } else {
-          this.notValid = true;
-          this.apply = false;
-          this.alertMsg = "Sorry, you can't apply!";
-        }
-      } else {
-        this.notValid = true;
-        this.alertMsg = "Enter a valid amount!";
-        this.apply = false;
-      }
-    },
     submitDetails() {
       this.formDetails.date = this.getTime();
-      this.formDetails.averageMonthIncome = this.amount;
       let userdata = {
-        advanceFund: this.formDetails,
+        email: this.formDetails,
       };
-      this.sending = true;
-
+      this.loading = true;
       axios({
         url:
-          "https://v2-api.sheety.co/f4753798250d9d18db685863982f7bcf/ejoyaAdvanceFund/advanceFund",
+          "https://v2-api.sheety.co/08622d3f3c5bb8a1b95a63dc99954f40/comingSoon/emails",
         data: userdata,
         method: "POST",
       })
         .then((resp) => {
-          this.sending = false;
+          this.loading = false;
           this.formDetails = {
-            firstName: "",
-            lastName: "",
-            artistName: "",
-            spotifyProfileUrl: "",
-            email: "",
-            phoneNumber: "",
-            amountNeeded: "",
+            date: "",
+            emailAddress: "",
           };
-          this.amount = "";
-          this.applyModal = false;
           this.$swal({
-            text: "Application sent for review",
+            text: "Email Saved Successfully!",
             icon: "success",
           });
         })
         .catch((err) => {
-          this.sending = false;
+          this.loading = false;
         });
     },
     getTime() {
