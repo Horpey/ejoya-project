@@ -83,6 +83,10 @@ body {
 .bg-black {
   background-color: black !important;
 }
+.btn-theme {
+  background-color: #f4265f !important;
+  border-color: #f4265f !important;
+}
 
 .headingln {
   line-height: 75px !important;
@@ -99,6 +103,11 @@ body {
   // background: linear-gradient(45deg, black, #00000000, #0000006b),
   //   url(/img/ejoya/12478.png);
   background: url(/img/ejoya/12478.png);
+  background-position: center;
+  background-size: cover;
+}
+.shape-banner-two {
+  background: url(/img/ejoya/landingpage.png);
   background-position: center;
   background-size: cover;
 }
@@ -163,6 +172,36 @@ a.btn-icon-only {
 .form-control {
   color: black !important;
 }
+.dotsleft {
+  position: absolute;
+  bottom: 70px;
+  left: 60px;
+}
+.dotsright {
+  position: absolute;
+  bottom: 70px;
+  right: 60px;
+}
+.mv-musicc {
+  bottom: 50px;
+  position: absolute;
+  width: 100%;
+  max-width: 100% !important;
+}
+.ejinput {
+  width: 300px !important;
+  color: white !important;
+  font-size: 16px;
+  background: black !important;
+  border-color: #e7e7e729 !important;
+  &:focus {
+    border-color: #e7e7e729 !important;
+    color: white !important;
+  }
+}
+.headlnsm{
+  font-size: 49px;line-height: 55px !important;
+}
 
 @media (min-width: 768px) {
   .section-hero {
@@ -173,5 +212,31 @@ a.btn-icon-only {
   .container-fluid {
     padding-right: 100px !important;
     padding-left: 100px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .headlnsm {
+    font-size: 28px !important;
+    line-height: 35px !important;
+  }
+  .introsm{
+    font-size: 18px;
+  }
+  .dotsleft,.dotsright{
+    display: none
+  }
+  .fminlinesm{
+   
+    .form-group {
+      width: 100%;
+      input{
+        width: 100%!important;
+        margin-bottom: 16px!important;
+      }
+      .btn{
+        width: 100%!important;
+        margin-left: 0px!important;
+      }
+    }
   }
 }

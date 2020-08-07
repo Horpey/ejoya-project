@@ -3,6 +3,7 @@ import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 import Index from "./views/Index.vue";
+import ComingSoon from "./views/ComingSoon.vue";
 import Advance from "./views/Advance.vue";
 
 Vue.use(Router);
@@ -15,7 +16,7 @@ export default new Router({
       name: "index",
       components: {
         // header: AppHeader,
-        default: Index,
+        default: ComingSoon,
         // footer: AppFooter
       },
     },
