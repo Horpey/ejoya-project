@@ -199,8 +199,9 @@ a.btn-icon-only {
     color: white !important;
   }
 }
-.headlnsm{
-  font-size: 49px;line-height: 55px !important;
+.headlnsm {
+  font-size: 49px;
+  line-height: 55px !important;
 }
 
 @media (min-width: 768px) {
@@ -214,28 +215,40 @@ a.btn-icon-only {
     padding-left: 100px !important;
   }
 }
+@media only screen and (max-width: 375px) {
+  .img-i6 {
+    width: 100px !important;
+  }
+  .mv-musicsm {
+    position: relative;
+    padding-top: 100px;
+  }
+  .f-fullsm {
+    padding-bottom: 0px !important;
+  }
+}
 @media only screen and (max-width: 600px) {
   .headlnsm {
     font-size: 28px !important;
     line-height: 35px !important;
   }
-  .introsm{
+  .introsm {
     font-size: 18px;
   }
-  .dotsleft,.dotsright{
-    display: none
+  .dotsleft,
+  .dotsright {
+    display: none;
   }
-  .fminlinesm{
-   
+  .fminlinesm {
     .form-group {
       width: 100%;
-      input{
-        width: 100%!important;
-        margin-bottom: 16px!important;
+      input {
+        width: 100% !important;
+        margin-bottom: 16px !important;
       }
-      .btn{
-        width: 100%!important;
-        margin-left: 0px!important;
+      .btn {
+        width: 100% !important;
+        margin-left: 0px !important;
       }
     }
   }

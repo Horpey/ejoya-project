@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.06eb665fc8377f6783b1932c2c98d555.js"
+  "/precache-manifest.c463a23447396dae34e8a8e8099112fc.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "MyBartty"});
+workbox.core.setCacheNameDetails({prefix: "ejoya"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to

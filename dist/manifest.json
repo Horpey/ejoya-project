@@ -1,6 +1,6 @@
 {
-    "name": "MyBartty",
-    "short_name": "MyBartty",
+    "name": "Ejoya Music",
+    "short_name": "Ejoya Music",
     "icons": [{
             "src": "/img/appicon/android-icon-36x36.png",
             "sizes": "36x36",
@@ -41,5 +41,5 @@
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#e75563"
+    "theme_color": "#d5053e"
 }

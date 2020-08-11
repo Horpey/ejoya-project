@@ -3,14 +3,19 @@
     <div class="wrapper">
       <img class="dotsleft" src="/img/ejoya/dots-grid.svg" alt />
       <img class="dotsright" src="/img/ejoya/dots-grid.svg" alt />
-      <div class="section section-hero section-shaped my-0" style="min-height: 100vh;">
+      <div class="section section-hero section-shaped my-0 f-fullsm" style="min-height: 100vh;">
         <div class="shape shape-style-3 shape-banner-two"></div>
         <div class="page-header">
           <div class="container-fluid shape-container d-flex align-items-center">
             <div class="px-0">
               <div class="row">
                 <div class="col-lg-8">
-                  <img class="mb-3" style="width: 180px" src="/img/ejoya/ejoya.svg" alt="logo" />
+                  <img
+                    class="mb-3 img-i6"
+                    style="width: 180px"
+                    src="/img/ejoya/ejoya.svg"
+                    alt="logo"
+                  />
                   <h1
                     class="text-white mt-5 text-bold headingln headlnsm"
                   >We are building something exciting for all artistes.</h1>
@@ -45,7 +50,7 @@
               </div>
             </div>
           </div>
-          <div class="container mv-musicc">
+          <div class="container mv-musicc mv-musicsm">
             <div class="text-center">
               <a
                 target="_blank"
