@@ -22,6 +22,7 @@
                       <label for></label>
                       <input
                         type="email"
+                        required
                         v-model="formDetails.emailAddress"
                         class="form-control gills-font ejinput"
                         placeholder="Email Address"

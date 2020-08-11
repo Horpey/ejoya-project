@@ -8,9 +8,9 @@
       effect="light"
       expand
     >
-      <a slot="brand" class="navbar-brand mr-lg-5" href="#">
+      <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
         <img src="/img/ejoya/ejoya.svg" alt="logo" />
-      </a>
+      </router-link>
 
       <div class="row" slot="content-header" slot-scope="{ closeMenu }">
         <div class="col-6 collapse-brand">
@@ -51,9 +51,9 @@ export default {
   components: {
     BaseNav,
     CloseButton,
-    BaseDropdown
+    BaseDropdown,
   },
-  mounted() {}
+  mounted() {},
 };
 </script>
 <style></style>

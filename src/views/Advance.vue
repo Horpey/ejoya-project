@@ -66,10 +66,9 @@
                 <div class="text-center">
                   <img src="/img/ejoya/money.svg" class="mb-3" height="63" alt />
                   <h6 class="text-bold text-sec">Get your advance</h6>
-                  <p class="gills-font text-white">
-                    You will be able to access up to 12 months of advance on your stream
-                    earning no collateral
-                  </p>
+                  <p
+                    class="gills-font text-white"
+                  >Up to 10 months advance on your mechanical royalties without any physical collateral.</p>
                 </div>
               </div>
               <div class="col-md-3">
@@ -433,13 +432,13 @@ export default {
         email: "",
         phoneNumber: "",
         amountNeeded: "",
-        averageMonthIncome: ""
-      }
+        averageMonthIncome: "",
+      },
     };
   },
   components: {
     AppHeader,
-    Modal
+    Modal,
   },
   mounted() {},
   methods: {
@@ -448,7 +447,7 @@ export default {
         if (this.amount >= 100 && this.amount <= 50000) {
           this.notValid = false;
           this.apply = true;
-          this.minAmt = 8 * this.amount;
+          this.minAmt = 3 * this.amount;
           this.maxAmt = 10 * this.amount;
         } else {
           this.notValid = true;
@@ -465,7 +464,7 @@ export default {
       this.formDetails.date = this.getTime();
       this.formDetails.averageMonthIncome = this.amount;
       let userdata = {
-        advanceFund: this.formDetails
+        advanceFund: this.formDetails,
       };
       this.sending = true;
 
@@ -473,9 +472,9 @@ export default {
         url:
           "https://v2-api.sheety.co/f4753798250d9d18db685863982f7bcf/ejoyaAdvanceFund/advanceFund",
         data: userdata,
-        method: "POST"
+        method: "POST",
       })
-        .then(resp => {
+        .then((resp) => {
           this.sending = false;
           this.formDetails = {
             firstName: "",
@@ -484,16 +483,16 @@ export default {
             spotifyProfileUrl: "",
             email: "",
             phoneNumber: "",
-            amountNeeded: ""
+            amountNeeded: "",
           };
           this.amount = "";
           this.applyModal = false;
           this.$swal({
             text: "Application sent for review",
-            icon: "success"
+            icon: "success",
           });
         })
-        .catch(err => {
+        .catch((err) => {
           this.sending = false;
         });
     },
@@ -513,8 +512,8 @@ export default {
     validateAmt(amt) {
       var rgx = /^[0-9]*\.?[0-9]*$/;
       return amt.match(rgx);
-    }
-  }
+    },
+  },
 };
 </script>
 <style>
