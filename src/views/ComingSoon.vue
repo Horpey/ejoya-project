@@ -38,7 +38,7 @@
                     </div>
                   </form>
                   <p class="text-white mt-3 gills-font">
-                    <span class="opacity-5 pr-2">Interested in getting Artist Advance Fund?</span>
+                    <span class="opacity-5 pr-2">Interested in our Artist Advance Fund?</span>
                     <router-link class="font-weight-bold text-white" to="/advance">Get Started</router-link>
                   </p>
                 </div>
