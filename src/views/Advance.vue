@@ -57,7 +57,7 @@
                   <img src="/img/ejoya/search.svg" class="mb-3" height="63" alt />
                   <h6 class="text-bold text-sec">We review</h6>
                   <p class="gills-font text-white">
-                    We attend swifyly to your application and discuss clear terms because your
+                    We attend swiftly to your application and discuss clear terms because your
                     trust is very important to us.
                   </p>
                 </div>

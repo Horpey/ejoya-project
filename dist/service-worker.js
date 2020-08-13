@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.3de293b48a236afca6ffa423542a7935.js"
+  "/precache-manifest.3bf2a79eacdff8cfcf811d41df9b0d28.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ejoya"});
