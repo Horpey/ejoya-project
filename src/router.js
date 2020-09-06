@@ -9,15 +9,16 @@ import Advance from "./views/Advance.vue";
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  mode: "history",
   linkExactActiveClass: "active",
-  routes: [{
+  routes: [
+    {
       path: "/",
       name: "index",
       components: {
-        // header: AppHeader,
-        default: ComingSoon,
-        // footer: AppFooter
+        header: AppHeader,
+        default: Index,
+        footer: AppFooter,
       },
     },
     {
@@ -29,7 +30,6 @@ export default new Router({
         // footer: AppFooter
       },
     },
-
   ],
   scrollBehavior: (to) => {
     if (to.hash) {
