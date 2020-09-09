@@ -14,40 +14,45 @@
 
       <div class="row" slot="content-header" slot-scope="{ closeMenu }">
         <div class="col-6 collapse-brand">
-          <a href="#">
+          <router-link href="/">
             <img src="/img/ejoya/logo-dark.svg" />
-          </a>
+          </router-link>
         </div>
         <div class="col-6 collapse-close">
           <close-button @click="closeMenu"></close-button>
         </div>
       </div>
 
-      <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
         <li class="nav-item">
-          <a href="#apply" class="nav-link">
+          <router-link to="/" class="nav-link">
             <span class="nav-link-inner--text">Home</span>
-          </a>
+          </router-link>
         </li>
         <li class="nav-item">
-          <a href="#how-it-works" class="nav-link">
+          <router-link to="/distribution" class="nav-link">
             <span class="nav-link-inner--text">Distribution</span>
-          </a>
+          </router-link>
         </li>
         <li class="nav-item">
-          <a href="#faq" class="nav-link">
+          <router-link to="/advance" class="nav-link">
             <span class="nav-link-inner--text">Advance Fund</span>
-          </a>
+          </router-link>
         </li>
-        <li class="nav-item">
-          <a href="#faq" class="nav-link">
+        <base-dropdown tag="li" class="nav-item">
+          <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">Company</span>
           </a>
-        </li>
+          <router-link to="/about-us" class="dropdown-item">About us</router-link>
+          <router-link to="/faq" class="dropdown-item">FAQ</router-link>
+          <router-link to="/contact-us" class="dropdown-item">Contact Us</router-link>
+        </base-dropdown>
+
         <li class="nav-item">
-          <a href="#faq" class="nav-link">
+          <router-link to="/contact" class="nav-link">
             <span class="nav-link-inner--text">Contact</span>
-          </a>
+          </router-link>
         </li>
         <li class="nav-item">
           <router-link class="btn btn-dark text-capitalize nvbtn" to="/sign-in">Sign in</router-link>
@@ -60,6 +65,7 @@
 import BaseNav from "@/components/BaseNav";
 import BaseDropdown from "@/components/BaseDropdown";
 import CloseButton from "@/components/CloseButton";
+
 export default {
   components: {
     BaseNav,

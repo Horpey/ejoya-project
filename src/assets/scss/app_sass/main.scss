@@ -146,6 +146,33 @@ body {
   background-repeat-y: no-repeat;
   padding-bottom: 9rem !important;
 }
+.startDist {
+  color: white;
+  background-color: black;
+  background: linear-gradient(#000000a1, #000000c4), url(/img/ejoya/3026354.svg);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat-y: no-repeat;
+  padding-bottom: 9rem !important;
+}
+.section-leftt {
+  color: white;
+  background-color: black;
+  background-image: url(/img/ejoya/leftPattern.svg);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat !important;
+  padding-bottom: 9rem !important;
+}
+.section-rightt {
+  color: white;
+  background-color: black;
+  background-image: url(/img/ejoya/rightPattern.svg);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat !important;
+  padding-bottom: 9rem !important;
+}
 
 .btn-sec {
   background-color: #d5043e !important;
@@ -323,4 +350,48 @@ a.btn-icon-only {
   background-position: bottom;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.navbar-transparent .navbar-nav .show > .nav-link,
+.navbar-transparent .navbar-nav .active > .nav-link,
+.navbar-transparent .navbar-nav .nav-link.show,
+.navbar-transparent .navbar-nav .nav-link.active {
+  color: #d4053e !important;
+}
+
+.bg-darkgrey {
+  background-color: #0e0e0e;
+}
+
+.streamlogos {
+  img {
+    margin-right: 54px;
+    margin-bottom: 24px;
+  }
+}
+
+.f-16 {
+  font-size: 16px !important;
+}
+
+.formbgg {
+  background: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.192)),
+    url(/img/ejoya/bujubg.svg);
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.dotsleft {
+  position: absolute;
+  z-index: 9;
+  bottom: 60px;
+  left: 58px;
+}
+
+.dotsright {
+  position: absolute;
+  z-index: 9;
+  bottom: 60px;
+  right: 58px;
 }

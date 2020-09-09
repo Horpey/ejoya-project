@@ -4,6 +4,7 @@
       <div class="section section-hero section-hh section-shaped my-0">
         <div class="shape shape-style-3 shape-banner2"></div>
         <img class="lnpattern" src="/img/ejoya/homeline.svg" alt="lnpatter" />
+
         <div class="page-header">
           <div class="container-fluid shape-container d-flex align-items-center py-lg">
             <div class="col px-0">
@@ -13,6 +14,7 @@
                   <p
                     class="text-white mt-4 gills-font lead"
                   >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+
                   <div>
                     <router-link
                       to="/"
@@ -151,7 +153,7 @@
                 <p
                   class="gills-font text-white"
                 >Thanks for being a fan! We'll reward you generously!</p>
-                <form @submit.prevent="calFund">
+                <form>
                   <input
                     v-model="amount"
                     type="text"
@@ -204,79 +206,7 @@ export default {
     Modal,
   },
   mounted() {},
-  methods: {
-    calFund() {
-      if (this.validateAmt(this.amount)) {
-        if (this.amount >= 100 && this.amount <= 50000) {
-          this.notValid = false;
-          this.apply = true;
-          this.minAmt = 3 * this.amount;
-          this.maxAmt = 10 * this.amount;
-        } else {
-          this.notValid = true;
-          this.apply = false;
-          this.alertMsg = "Sorry, you can't apply!";
-        }
-      } else {
-        this.notValid = true;
-        this.alertMsg = "Enter a valid amount!";
-        this.apply = false;
-      }
-    },
-    submitDetails() {
-      this.formDetails.date = this.getTime();
-      this.formDetails.averageMonthIncome = this.amount;
-      let userdata = {
-        advanceFund: this.formDetails,
-      };
-      this.sending = true;
-
-      axios({
-        url:
-          "https://v2-api.sheety.co/f4753798250d9d18db685863982f7bcf/ejoyaAdvanceFund/advanceFund",
-        data: userdata,
-        method: "POST",
-      })
-        .then((resp) => {
-          this.sending = false;
-          this.formDetails = {
-            firstName: "",
-            lastName: "",
-            artistName: "",
-            spotifyProfileUrl: "",
-            email: "",
-            phoneNumber: "",
-            amountNeeded: "",
-          };
-          this.amount = "";
-          this.applyModal = false;
-          this.$swal({
-            text: "Application sent for review",
-            icon: "success",
-          });
-        })
-        .catch((err) => {
-          this.sending = false;
-        });
-    },
-    getTime() {
-      var today = new Date();
-      var date =
-        today.getFullYear() +
-        "-" +
-        (today.getMonth() + 1) +
-        "-" +
-        today.getDate();
-      var time =
-        today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-      var dateTime = date + " " + time;
-      return dateTime;
-    },
-    validateAmt(amt) {
-      var rgx = /^[0-9]*\.?[0-9]*$/;
-      return amt.match(rgx);
-    },
-  },
+  methods: {},
 };
 </script>
 <style>
