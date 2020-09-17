@@ -17,11 +17,11 @@
 
                   <div>
                     <router-link
-                      to="/"
+                      to="/distribution"
                       class="btn btn-sec btn-primary text-capitalize gills-font"
                     >Distribute</router-link>
                     <a
-                      href="/sign-in"
+                      href="/advance"
                       class="btn btn-dark text-capitalize nvbtn gills-font"
                     >Get Advance</a>
                   </div>
@@ -97,7 +97,7 @@
       </div>
       <div class="section section-calc text-center" id="apply">
         <div class="container-fluid">
-          <h1 class="text-white text-bold">Some of the platforms we distribute to</h1>
+          <h1 class="text-white text-bold">Our Partners</h1>
           <div class="row">
             <div class="col-md-8 mx-auto">
               <img src="/img/ejoya/platforms.png" class="img-fluid mt-5" alt="platforms" />
@@ -105,14 +105,14 @@
           </div>
         </div>
       </div>
-      <div class="section section-testim">
+      <div class="section section-calc">
         <div class="container-fluid">
           <div class="text-center mt-5">
-            <h2 class="text-bold text-black">What people say about us</h2>
+            <h1 class="text-white text-bold">What people say about us</h1>
           </div>
           <div class="mt-5 row">
             <div class="col-md-10 mx-auto">
-              <div class="card cardnshadow">
+              <div class="card cardnshadow" style="background-color: #1b1b1b;">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-4">
@@ -121,12 +121,12 @@
                     <div class="col-md-8">
                       <div class="py-4">
                         <p
-                          class="mt-3 gills-font text-black"
+                          class="mt-3 gills-font text-white"
                         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae velit distinctio voluptas voluptates? Ut beatae doloremque, dolor, id provident harum a totam consequuntur inventore exercitationem, perspiciatis laboriosam eum itaque.</p>
                         <p
-                          class="mt-3 gills-font text-black"
+                          class="mt-3 gills-font text-white"
                         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae velit distinctio voluptas voluptates? Ut beatae doloremque, dolor, id provident harum a totam consequuntur inventore exercitationem, perspiciatis laboriosam eum itaque.</p>
-                        <h4 class="gills-font mt-3 font-weight-bold text-black">Mojo</h4>
+                        <h4 class="gills-font mt-3 font-weight-bold text-white">Mojo</h4>
                       </div>
                     </div>
                   </div>

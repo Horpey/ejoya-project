@@ -395,3 +395,18 @@ a.btn-icon-only {
   bottom: 60px;
   right: 58px;
 }
+
+.dropdown-menu {
+  background: black !important;
+  &.dropdown-menu:before {
+    background: black !important;
+  }
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: #3c3c3c;
+    color: white;
+  }
+  a {
+    color: white;
+  }
+}

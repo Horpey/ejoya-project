@@ -22,6 +22,7 @@
           <close-button @click="closeMenu"></close-button>
         </div>
       </div>
+      <!-- navbar-nav-hover  -->
 
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
         <li class="nav-item">
@@ -56,6 +57,9 @@
         </li>
         <li class="nav-item">
           <router-link class="btn btn-dark text-capitalize nvbtn" to="/sign-in">Sign in</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="btn btn-sec text-white text-capitalize" to="/ejoya-pro">Ejoya Pro</router-link>
         </li>
       </ul>
     </base-nav>

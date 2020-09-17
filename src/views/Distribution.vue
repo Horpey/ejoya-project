@@ -365,6 +365,16 @@
           </div>
         </div>
       </div>
+      <div class="section section-calc text-center" id="apply">
+        <div class="container-fluid">
+          <h1 class="text-white text-bold">Some of the Platform we distribute to</h1>
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+              <img src="/img/ejoya/platforms.png" class="img-fluid mt-5" alt="platforms" />
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="section bg-black">
         <div class="container-fluid pt-5">
           <div class="row">

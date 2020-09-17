@@ -9,6 +9,20 @@
           <div class="col-lg-6 col-8 text-lg-center btn-wrapper">
             <ul class="nav nav-footer justify-content-end">
               <li class="nav-item">
+                <router-link
+                  to="/privacy-policy"
+                  class="nav-link"
+                  style="color: white!important;"
+                >Privacy Policy</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link
+                  to="/terms"
+                  class="nav-link"
+                  style="color: white!important;"
+                >Terms & Condition</router-link>
+              </li>
+              <li class="nav-item">
                 <a
                   href="mailto:advance@ejoya.co"
                   class="nav-link"
