@@ -13,17 +13,17 @@
                   <h1 class="text-white text-bold headingln homeheadsm">Move your music with Ejoya</h1>
                   <p
                     class="text-white mt-4 gills-font lead"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                  >We are constantly creating digital services for artiste and creatives who want to effectively move their music, connect with the world and stay profitable.</p>
 
                   <div>
                     <router-link
                       to="/distribution"
                       class="btn btn-sec btn-primary text-capitalize gills-font"
                     >Distribute</router-link>
-                    <a
-                      href="/advance"
+                    <router-link
+                      to="/advance"
                       class="btn btn-dark text-capitalize nvbtn gills-font"
-                    >Get Advance</a>
+                    >Get Advance</router-link>
                   </div>
                 </div>
               </div>
@@ -42,12 +42,14 @@
             <div class="col-md-6">
               <div class="pl-1sm">
                 <h1 class="text-bold text-white pt-5">Who we are</h1>
-                <p
-                  class="gills-font text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt numquam eaque, quasi explicabo itaque amet natus voluptate iusto, vel commodi architecto ad voluptates atque repudiandae earum beatae. Assumenda, laboriosam.</p>
-                <p
-                  class="gills-font text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt numquam eaque, quasi explicabo itaque amet natus voluptate iusto, vel commodi architecto ad voluptates atque repudiandae earum beatae. Assumenda, laboriosam.</p>
+                <p class="gills-font text-white">
+                  Ejoya is a music technology company that provides digital label services like distribution, marketing, royalties collection and the recently launched
+                  <router-link to="/advance">Artiste advance fund</router-link>. We aim to provide necessary tools needed by artistes to help them thrive in an ever competitive music industry.
+                </p>
+                <router-link
+                  to="/distribution"
+                  class="btn btn-sec btn-primary text-capitalize gills-font"
+                >Read more</router-link>
               </div>
             </div>
           </div>
@@ -66,10 +68,10 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="service-card mb-4">
-                  <h4 class="text-white text-bold">Music Distribution Platform</h4>
+                  <h4 class="text-white text-bold">Music distribution Platform</h4>
                   <p
                     class="text-white gills-font"
-                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores hic facere voluptatem veritatis minus. Obcaecati voluptate accusantium, et reiciendis, cumque dolorum alias nemo, suscipit mollitia eligendi quia. Harum, iure beatae.</p>
+                  >We offer DIY distribution through our platform to help artiste(s) sell their music properly, collect their royalties, access necessary data, pitch for play-listing and many more, we created this out of the need to serve a large market of artistes.</p>
                   <a href="#" class="font-weight-bold text-sec gills-font">Learn More</a>
                 </div>
               </div>
@@ -78,7 +80,7 @@
                   <h4 class="text-white text-bold">Artiste Advance Fund</h4>
                   <p
                     class="text-white gills-font"
-                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores hic facere voluptatem veritatis minus. Obcaecati voluptate accusantium, et reiciendis, cumque dolorum alias nemo, suscipit mollitia eligendi quia. Harum, iure beatae.</p>
+                  >The Ejoya Advance Fund aims to provide all artiste(s) access to the necessary funding to scale their ideas without signing to a label. At Ejoya, we discovered that artiste(s) often require loans for all sorts of reasons to pay for items like music promotions, video, shows, etc. we have identified this need and built this product to cater to this need.</p>
                   <a href="#" class="font-weight-bold text-sec gills-font">Learn More</a>
                 </div>
               </div>
@@ -87,7 +89,7 @@
                   <h4 class="text-white text-bold">Ejoya Pro</h4>
                   <p
                     class="text-white gills-font"
-                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores hic facere voluptatem veritatis minus. Obcaecati voluptate accusantium, et reiciendis, cumque dolorum alias nemo, suscipit mollitia eligendi quia. Harum, iure beatae.</p>
+                  >We offer bespoke service to artiste who have experienced a level of success, we leverage on relationships within our network and outside to help these artiste(s) keep the momentum and scale accordingly.</p>
                   <a href="#" class="font-weight-bold text-sec gills-font">Learn More</a>
                 </div>
               </div>
@@ -97,7 +99,7 @@
       </div>
       <div class="section section-calc text-center" id="apply">
         <div class="container-fluid">
-          <h1 class="text-white text-bold">Our Partners</h1>
+          <h1 class="text-white text-bold">Some of the platforms we distribute to</h1>
           <div class="row">
             <div class="col-md-8 mx-auto">
               <img src="/img/ejoya/platforms.png" class="img-fluid mt-5" alt="platforms" />
