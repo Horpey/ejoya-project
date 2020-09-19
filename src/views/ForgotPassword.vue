@@ -16,8 +16,8 @@
             </div>
             <div class="col-md-4">
               <div class="pl-1sm" style="padding-left: 50px; padding-top: 20px">
-                <h1 class="text-bold text-white pt-5">Sign in</h1>
-                <p class="gills-font text-white">Welcome to Ejoya</p>
+                <h1 class="text-bold text-white pt-5">Forgot Password</h1>
+                <p class="gills-font text-white">Enter your email address to get reset-password link</p>
                 <form>
                   <input
                     type="text"
@@ -27,31 +27,10 @@
                     style="color: black"
                   />
 
-                  <input
-                    type="password"
-                    required
-                    placeholder="Password"
-                    class="form-control form-control-lg text-bold mb-3"
-                    style="color: black"
-                  />
-                  <div class="row">
-                    <div class="col-6">
-                      <base-checkbox class="mb-3">
-                        <span class="text-white gills-font pt-1">Remember me</span>
-                      </base-checkbox>
-                    </div>
-                    <div class="col-6 text-right">
-                      <router-link
-                        to="/forgot-password"
-                        class="text-sec gills-font"
-                      >Forgot Password?</router-link>
-                    </div>
-                  </div>
-
                   <button
                     type="submit"
                     class="btn btn-sec gills-font text-capitalize btn-primary btn-block mt-5 py-3 px-5 f-16 mb-5"
-                  >Sign in</button>
+                  >Send Email</button>
                   <p class="gills-font text-white text-center">
                     Don't have an account?
                     <router-link to="/sign-up" class="pr-1">Click here</router-link>to Sign up

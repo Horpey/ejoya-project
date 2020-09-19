@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="266" height="170" viewBox="0 0 266 170">
+  <defs>
+    <filter id="Rectangle_1302" x="0" y="0" width="266" height="170" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="tiktok" transform="translate(3719.5 -6248.5)">
+    <g id="Group_2384" data-name="Group 2384">
+      <g id="Group_2378" data-name="Group 2378" transform="translate(-4553 1687)">
+        <g transform="matrix(1, 0, 0, 1, 833.5, 4561.5)" filter="url(#Rectangle_1302)">
+          <rect id="Rectangle_1302-2" data-name="Rectangle 1302" width="191" height="95" rx="5" transform="translate(37.5 34.5)" fill="#0d0d0d"/>
+        </g>
+      </g>
+      <g id="tiktok-logo" transform="translate(-3657 6282)">
+        <path id="Path_2338" data-name="Path 2338" d="M155.463,210.022a3.674,3.674,0,1,0,0-7.347H154.9a3.674,3.674,0,1,1,0,7.347Z" transform="translate(-76.697 -133.556)" fill="#ee1d51" fill-rule="evenodd"/>
+        <path id="Path_2339" data-name="Path 2339" d="M143.129,202.675h-.558a3.674,3.674,0,1,0,0,7.347h.558a3.674,3.674,0,1,1,0-7.347Z" transform="translate(-64.972 -133.556)" fill="#66c8cf" fill-rule="evenodd"/>
+        <ellipse id="Ellipse_2842" data-name="Ellipse 2842" cx="1.801" cy="1.786" rx="1.801" ry="1.786" transform="translate(76.381 71.007)" fill="#010101"/>
+        <path id="Path_2340" data-name="Path 2340" d="M50,196.5v1.862h2.181v7.1h2.182v-7.045h1.775l.609-1.912Zm17.858,0v1.862h2.181v7.1h2.182v-7.045H74l.609-1.912Zm-10.7,1.057a1.065,1.065,0,1,1,1.065,1.057A1.06,1.06,0,0,1,57.154,197.557Zm0,1.812h2.13v6.089h-2.13ZM60.2,196.5v8.957h2.131v-2.315l.66-.6,2.08,2.969h2.283l-2.994-4.328,2.689-2.617H64.459l-2.13,2.113V196.5Zm22.982,0v8.957H85.31v-2.315l.659-.6,2.08,2.969h2.283L87.34,201.18l2.689-2.617H87.441l-2.131,2.113V196.5Z" transform="translate(0 -129.041)" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_2341" data-name="Path 2341" d="M96.586,41.409a17.9,17.9,0,0,0,10.441,3.34V37.26a10.557,10.557,0,0,1-2.193-.229v5.895a17.9,17.9,0,0,1-10.441-3.34V54.868a13.853,13.853,0,0,1-21.559,11.5,13.851,13.851,0,0,0,23.752-9.678V41.409Zm2.705-7.555a10.436,10.436,0,0,1-2.705-6.111V26.78H94.508A10.484,10.484,0,0,0,99.291,33.854ZM77.672,60.5a6.336,6.336,0,0,1,6.965-9.868V42.978a13.975,13.975,0,0,0-2.192-.126v5.959A6.334,6.334,0,0,0,77.672,60.5Z" transform="translate(-16.694 -4.957)" fill="#ee1d52" fill-rule="evenodd"/>
+        <path id="Path_2342" data-name="Path 2342" d="M83.66,39.586A17.9,17.9,0,0,0,94.1,42.925V37.031a10.481,10.481,0,0,1-5.544-3.177,10.484,10.484,0,0,1-4.783-7.074H78.317V56.691A6.336,6.336,0,0,1,66.939,60.5a6.334,6.334,0,0,1,4.773-11.691V42.852A13.841,13.841,0,0,0,62.1,66.369a13.853,13.853,0,0,0,21.559-11.5Z" transform="translate(-5.961 -4.957)" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_2343" data-name="Path 2343" d="M88.14,32.074V30.48A10.444,10.444,0,0,1,82.6,28.9a10.473,10.473,0,0,0,5.544,3.177ZM77.814,21.823q-.075-.427-.115-.86V20H70.162V49.911a6.338,6.338,0,0,1-9.185,5.635,6.336,6.336,0,0,0,11.378-3.812V21.823ZM65.75,37.9V36.2A13.865,13.865,0,0,0,50,49.911a13.826,13.826,0,0,0,6.14,11.5A13.841,13.841,0,0,1,65.75,37.9Z" transform="translate(0)" fill="#69c9d0" fill-rule="evenodd"/>
+        <path id="Path_2344" data-name="Path 2344" d="M144.7,210.022a3.674,3.674,0,1,0,0-7.347h-.051a3.674,3.674,0,1,0,0,7.347Zm-1.826-3.674a1.8,1.8,0,1,1,1.8,1.787A1.794,1.794,0,0,1,142.87,206.349Z" transform="translate(-66.489 -133.556)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

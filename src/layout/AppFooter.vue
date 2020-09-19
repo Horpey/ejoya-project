@@ -10,25 +10,17 @@
             <ul class="nav nav-footer justify-content-end">
               <li class="nav-item">
                 <router-link
-                  to="/privacy-policy"
-                  class="nav-link"
-                  style="color: white!important;"
-                >Privacy Policy</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link
                   to="/terms"
                   class="nav-link"
                   style="color: white!important;"
-                >Terms & Condition</router-link>
+                >Terms of Service</router-link>
               </li>
               <li class="nav-item">
-                <a
-                  href="mailto:advance@ejoya.co"
+                <router-link
+                  to="/privacy"
                   class="nav-link"
                   style="color: white!important;"
-                  target="_blank"
-                >advance@ejoya.co</a>
+                >Privacy Policy</router-link>
               </li>
             </ul>
           </div>
@@ -54,7 +46,7 @@
                 target="_blank"
                 href="https://twitter.com/EjoyaMusic?s=09"
                 rel="nofollow"
-                class="btn btn-icon-only btn-twitter rounded-circle"
+                class="btn btn-icon-only btn-white rounded-circle"
                 data-toggle="tooltip"
                 data-original-title="Follow us"
               >
@@ -66,7 +58,7 @@
                 target="_blank"
                 href="https://m.facebook.com/ejoyamusic"
                 rel="nofollow"
-                class="btn-icon-only rounded-circle btn btn-facebook"
+                class="btn-icon-only rounded-circle btn-white btn"
                 data-toggle="tooltip"
                 data-original-title="Like us"
               >
@@ -78,7 +70,7 @@
                 target="_blank"
                 href="https://www.instagram.com/ejoyamusic/?igshid=tg8hv5n67094"
                 rel="nofollow"
-                class="btn-icon-only rounded-circle btn btn-instagram"
+                class="btn-icon-only rounded-circle btn btn-white"
                 data-toggle="tooltip"
                 data-original-title="Like us"
               >
@@ -88,6 +80,9 @@
               </a>
 
               <p class="text-white text-bold mb-0 mt-2">move your music</p>
+              <p
+                class="text-white gills-font small mt-2 mb-0"
+              >© Ejoya Music 2020. All Rights Reserved.</p>
             </div>
           </div>
           <div class="col-md-4">

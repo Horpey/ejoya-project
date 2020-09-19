@@ -9,6 +9,8 @@ import SignIn from "./views/SignIn.vue";
 import SignUp from "./views/SignUp.vue";
 import CompleteRegisteration from "./views/CompleteRegisteration.vue";
 import Distribution from "./views/Distribution.vue";
+import AboutUs from "./views/AboutUs.vue";
+import ForgotPassword from "./views/ForgotPassword.vue";
 
 Vue.use(Router);
 
@@ -35,6 +37,15 @@ export default new Router({
       },
     },
     {
+      path: "/about-us",
+      name: "about-us",
+      components: {
+        header: AppHeader,
+        default: AboutUs,
+        footer: AppFooter,
+      },
+    },
+    {
       path: "/advance",
       name: "advance",
       components: {
@@ -55,6 +66,13 @@ export default new Router({
       name: "sign-up",
       components: {
         default: SignUp,
+      },
+    },
+    {
+      path: "/forgot-password",
+      name: "forgot-password",
+      components: {
+        default: ForgotPassword,
       },
     },
     {

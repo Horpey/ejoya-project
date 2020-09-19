@@ -97,7 +97,34 @@
           </div>
         </div>
       </div>
-      <div class="section section-calc text-center" id="apply">
+      <div class="section bg-black">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="text-white text-bold mt-5">Ejoya – The Class</h1>
+              <p
+                class="text-white gills-font"
+              >Ejoya – The Class was born out of the need to create a culture and platform that brings out the best upcoming Artiste, producers, engineers and all round creatives in the Nigerian music scene to make great music for an album in 7 DAYS, Ejoya class of “20 features Buju, Mojo, Emo Grae, Yemisi Fancy, Jinmi Abduls, Yusuf Kanbai, Telz (Funkula), Dunni, Remy Baggins and other great talents. We are expressing the possibility of favorable co-existence and collaboration amongst various upcoming acts, giving them a platform to create, connect and grow.</p>
+            </div>
+            <div class="col-md-6">
+              <img src="/img/ejoya/class20.png" class="img-fluid" alt />
+              <div class="mb-3">
+                <a href="#">
+                  <i class="fa fa-play mr-3"></i>
+                  <span class="text-white gills-font">Listen to Class of “20 Vol 1</span>
+                </a>
+              </div>
+              <div class="mb-3">
+                <a href="#">
+                  <i class="fa fa-play mr-3"></i>
+                  <span class="text-white gills-font">Listen to Class of “20 Vol 11</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section bg-black text-center" id="apply">
         <div class="container-fluid">
           <h1 class="text-white text-bold">Some of the platforms we distribute to</h1>
           <div class="row">
@@ -107,6 +134,7 @@
           </div>
         </div>
       </div>
+
       <div class="section section-calc">
         <div class="container-fluid">
           <div class="text-center mt-5">
@@ -114,11 +142,11 @@
           </div>
           <div class="mt-5 row">
             <div class="col-md-10 mx-auto">
-              <div class="card cardnshadow" style="background-color: #1b1b1b;">
-                <div class="card-body">
+              <div class="card cardnshadow" style="background-color: black;">
+                <div class="card-body p-0">
                   <div class="row">
                     <div class="col-md-4">
-                      <img src="/img/ejoya/Testimo.png" alt class="img-fluid" />
+                      <img src="/img/ejoya/bujubg.svg" alt class="img-fluid" />
                     </div>
                     <div class="col-md-8">
                       <div class="py-4">
@@ -138,39 +166,23 @@
           </div>
         </div>
       </div>
-      <div class="section bg-black pb-0">
-        <div class="container-fluid pl-0 pt-5">
-          <div class="row">
-            <div class="col-md-6">
-              <img
-                style="mix-blend-mode: luminosity;"
-                src="/img/ejoya/subsc.png"
-                class="img-fluid"
-                alt="Image"
-              />
-            </div>
+      <div class="section startDist text-center" id="apply">
+        <div class="container-fluid">
+          <h2 class="text-white text-bold">Start Connected</h2>
+          <p class="gills-font">Subscribe to receive email updates about Ejoya</p>
+          <div class="row justify-content-center">
             <div class="col-md-4">
-              <div class="pl-1sm pb-100sm">
-                <h1 class="text-bold text-white pt-5">Stay Connected</h1>
-                <p
-                  class="gills-font text-white"
-                >Thanks for being a fan! We'll reward you generously!</p>
-                <form>
-                  <input
-                    v-model="amount"
-                    type="text"
-                    required
-                    placeholder="Email Address"
-                    class="form-control form-control-lg text-bold"
-                    style="color: black"
-                  />
+              <form>
+                <input
+                  type="text"
+                  required
+                  placeholder="Email Address"
+                  class="form-control form-control-lg text-bold"
+                  style="color: black"
+                />
 
-                  <button
-                    type="submit"
-                    class="btn btn-sec btn-primary btn-block mt-5 py-3 px-5"
-                  >Subscribe</button>
-                </form>
-              </div>
+                <button type="submit" class="btn btn-sec btn-block btn-primary mt-3 px-5">Subscribe</button>
+              </form>
             </div>
           </div>
         </div>

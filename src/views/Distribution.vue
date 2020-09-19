@@ -46,10 +46,7 @@
                 <h1 class="text-bold text-white pt-5">Upload, Grow & Monitor your music.</h1>
                 <p
                   class="gills-font text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt numquam eaque, quasi explicabo itaque amet natus voluptate iusto, vel commodi architecto ad voluptates atque repudiandae earum beatae. Assumenda, laboriosam.</p>
-                <p
-                  class="gills-font text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt numquam eaque, quasi explicabo itaque amet natus voluptate iusto, vel commodi architecto ad voluptates atque repudiandae earum beatae. Assumenda, laboriosam.</p>
+                >Upload, grow and monitor your music in few clicks. With the Ejoya distribution platform, you can easily upload your music to various streaming platforms and check your stats without stress.</p>
               </div>
             </div>
           </div>
@@ -63,10 +60,7 @@
                 <h1 class="text-bold text-white pt-5">Get Paid & Collect Earnings from all Platforms</h1>
                 <p
                   class="gills-font text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt numquam eaque, quasi explicabo itaque amet natus voluptate iusto, vel commodi architecto ad voluptates atque repudiandae earum beatae. Assumenda, laboriosam.</p>
-                <p
-                  class="gills-font text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt numquam eaque, quasi explicabo itaque amet natus voluptate iusto, vel commodi architecto ad voluptates.</p>
+                >Get paid straight to your bank accounts your royalties from streaming your music</p>
               </div>
             </div>
             <div class="col-md-5">
@@ -76,21 +70,19 @@
         </div>
       </div>
 
-      <div class="section section-leftt bg-black">
+      <div class="section bg-black">
         <div class="container-fluid pt-5">
           <div class="row">
-            <div class="col-md-5">
-              <img src="/img/ejoya/dj-4702977f.png" class="img-fluid" alt />
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-8 mx-auto text-center">
               <div class="pl-5">
-                <h1 class="text-bold text-white pt-5">Invite your team</h1>
+                <h1 class="text-bold text-white pt-5">Grow and Join Ejoya Pro</h1>
                 <p
-                  class="gills-font text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt numquam eaque, quasi explicabo itaque amet natus voluptate iusto, vel commodi architecto ad voluptates atque repudiandae earum beatae. Assumenda, laboriosam.</p>
-                <p
-                  class="gills-font text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt numquam eaque, quasi explicabo itaque amet natus voluptate iusto, vel commodi architecto ad voluptates atque repudiandae earum beatae. Assumenda, laboriosam.</p>
+                  class="gills-font text-white mb-3"
+                >We are constantly watching your growth and will provide artiste who are doing well the opportunity to move to our premium pro service. Ejoya Pro gives you access to label services like financing, digital marketing, billboard AD, A&R service and many more. You also get to Join the Class !</p>
+                <router-link
+                  to="/distribution"
+                  class="btn btn-sec btn-primary text-capitalize gills-font"
+                >Learn more</router-link>
               </div>
             </div>
           </div>
@@ -365,45 +357,19 @@
           </div>
         </div>
       </div>
-      <div class="section section-calc text-center" id="apply">
+      <div class="section bg-black text-center" id="apply">
         <div class="container-fluid">
-          <h1 class="text-white text-bold">Some of the Platform we distribute to</h1>
+          <h2
+            class="text-white text-bold"
+          >Deliver your music to over 50 music platforms around the world</h2>
           <div class="row">
-            <div class="col-md-8 mx-auto">
-              <img src="/img/ejoya/platforms.png" class="img-fluid mt-5" alt="platforms" />
+            <div class="col-md-3" v-for="(platorm,index) in platforms" :key="index">
+              <img :src="`/img/ejoya/platforms/${platorm}`" class="img-fluid" alt />
             </div>
           </div>
         </div>
       </div>
-      <div class="section bg-black">
-        <div class="container-fluid pt-5">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="pl-5">
-                <h1 class="text-bold text-white pt-5">Our Premium Streaming Platform</h1>
-                <p
-                  class="gills-font text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt numquam eaque, quasi explicabo itaque amet natus voluptate iusto, vel commodi architecto ad voluptates atque repudiandae earum beatae. Assumenda, laboriosam.</p>
-                <p
-                  class="gills-font text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt numquam eaque, quasi explicabo itaque amet natus voluptate iusto, vel commodi architecto ad voluptates.</p>
-              </div>
-            </div>
-            <div class="col-md-5">
-              <div class="streamlogos pt-5">
-                <img src="/img/ejoya/logos/Corparate Logo Vertical_Black Background.svg" alt />
-                <img src="/img/ejoya/logos/deezer.svg" alt />
-                <img src="/img/ejoya/logos/Group 2321.svg" alt />
-                <img src="/img/ejoya/logos/hiclipart.com (1).svg" alt />
-                <img src="/img/ejoya/logos/hiclipart.com (2).svg" alt />
-                <img src="/img/ejoya/logos/spotify-1.svg" alt />
-                <img src="/img/ejoya/logos/stacked-white-large.svg" alt />
-                <img src="/img/ejoya/logos/youtube-icon.svg" alt />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div class="section features-6 bg-black" id="faq">
         <div class="container-fluid">
           <div class="text-center mt-5">
@@ -505,6 +471,16 @@ import axios from "axios";
 export default {
   data() {
     return {
+      platforms: [
+        "spotify.svg",
+        "itunes.svg",
+        "deezer.svg",
+        "tidal.svg",
+        "triller.svg",
+        "boomplay.svg",
+        "instagram.svg",
+        "tiktok.svg",
+      ],
       amount: "",
       notValid: false,
       minAmt: "",

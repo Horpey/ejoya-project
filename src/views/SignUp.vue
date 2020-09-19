@@ -11,6 +11,7 @@
                 <router-link to="/">
                   <img src="/img/ejoya/ejoya.svg" alt="logo" />
                 </router-link>
+                <p class="text-white imgdescr">Buju - at Ejoya class of 20'</p>
               </div>
             </div>
             <div class="col-md-4">
