@@ -47,14 +47,19 @@
           </a>
           <router-link to="/about-us" class="dropdown-item">About us</router-link>
           <router-link to="/faq" class="dropdown-item">FAQ</router-link>
-          <router-link to="/contact-us" class="dropdown-item">Contact Us</router-link>
+          <router-link to="/contact" class="dropdown-item">Contact Us</router-link>
         </base-dropdown>
-
         <li class="nav-item">
+          <router-link to="/ejoya-pro" class="nav-link">
+            <span class="nav-link-inner--text">Ejoya Pro</span>
+          </router-link>
+        </li>
+
+        <!-- <li class="nav-item">
           <router-link to="/contact" class="nav-link">
             <span class="nav-link-inner--text">Contact</span>
           </router-link>
-        </li>
+        </li>-->
         <li class="nav-item">
           <router-link class="btn btn-dark text-capitalize nvbtn" to="/sign-in">Sign in</router-link>
         </li>

@@ -26,6 +26,10 @@
 p {
   font-family: "Gills", sans-serif !important;
 }
+
+p.plg {
+  font-size: 1.17rem !important;
+}
 a.gills-font {
   font-family: "Gills", sans-serif !important;
 }
@@ -150,6 +154,15 @@ body {
   color: white;
   background-color: black;
   background: linear-gradient(#000000a1, #000000c4), url(/img/ejoya/3026354.svg);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat-y: no-repeat;
+  padding-bottom: 9rem !important;
+}
+.stayconnected {
+  color: white;
+  background-color: black;
+  background: url(/img/ejoya/stayconnect.png);
   background-size: 100%;
   background-position: bottom;
   background-repeat-y: no-repeat;

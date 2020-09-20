@@ -45,7 +45,7 @@
               <div class="pl-5">
                 <h1 class="text-bold text-white pt-5">Upload, Grow & Monitor your music.</h1>
                 <p
-                  class="gills-font text-white"
+                  class="plg gills-font text-white"
                 >Upload, grow and monitor your music in few clicks. With the Ejoya distribution platform, you can easily upload your music to various streaming platforms and check your stats without stress.</p>
               </div>
             </div>
@@ -59,7 +59,7 @@
               <div class="pl-5">
                 <h1 class="text-bold text-white pt-5">Get Paid & Collect Earnings from all Platforms</h1>
                 <p
-                  class="gills-font text-white"
+                  class="gills-font text-white plg"
                 >Get paid straight to your bank accounts your royalties from streaming your music</p>
               </div>
             </div>
@@ -77,10 +77,10 @@
               <div class="pl-5">
                 <h1 class="text-bold text-white pt-5">Grow and Join Ejoya Pro</h1>
                 <p
-                  class="gills-font text-white mb-3"
+                  class="gills-font text-white mb-3 plg"
                 >We are constantly watching your growth and will provide artiste who are doing well the opportunity to move to our premium pro service. Ejoya Pro gives you access to label services like financing, digital marketing, billboard AD, A&R service and many more. You also get to Join the Class !</p>
                 <router-link
-                  to="/distribution"
+                  to="/ejoya-pro"
                   class="btn btn-sec btn-primary text-capitalize gills-font"
                 >Learn more</router-link>
               </div>
@@ -96,7 +96,7 @@
             <div class="row">
               <div class="col-md-8 mx-auto">
                 <p
-                  class="gills-font text-white mt-0"
+                  class="gills-font text-white mt-0 plg"
                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
               </div>
             </div>
@@ -437,6 +437,12 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="text-center my-4">
+              <router-link
+                to="/faq"
+                class="btn btn-sec btn-primary text-capitalize gills-font"
+              >Learn more</router-link>
             </div>
           </div>
         </div>

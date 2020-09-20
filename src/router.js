@@ -11,6 +11,7 @@ import CompleteRegisteration from "./views/CompleteRegisteration.vue";
 import Distribution from "./views/Distribution.vue";
 import Contact from "./views/Contact.vue";
 import AboutUs from "./views/AboutUs.vue";
+import Faq from "./views/Faq.vue";
 import ForgotPassword from "./views/ForgotPassword.vue";
 
 Vue.use(Router);
@@ -47,7 +48,7 @@ export default new Router({
       },
     },
     {
-      path: "/contact-us",
+      path: "/contact",
       name: "contact",
       components: {
         header: AppHeader,
@@ -55,7 +56,15 @@ export default new Router({
         footer: AppFooter,
       },
     },
-
+    {
+      path: "/faq",
+      name: "faq",
+      components: {
+        header: AppHeader,
+        default: Faq,
+        footer: AppFooter,
+      },
+    },
     {
       path: "/advance",
       name: "advance",
