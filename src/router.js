@@ -9,6 +9,7 @@ import SignIn from "./views/SignIn.vue";
 import SignUp from "./views/SignUp.vue";
 import CompleteRegisteration from "./views/CompleteRegisteration.vue";
 import Distribution from "./views/Distribution.vue";
+import Contact from "./views/Contact.vue";
 import AboutUs from "./views/AboutUs.vue";
 import ForgotPassword from "./views/ForgotPassword.vue";
 
@@ -45,6 +46,16 @@ export default new Router({
         footer: AppFooter,
       },
     },
+    {
+      path: "/contact-us",
+      name: "contact",
+      components: {
+        header: AppHeader,
+        default: Contact,
+        footer: AppFooter,
+      },
+    },
+
     {
       path: "/advance",
       name: "advance",
