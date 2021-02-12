@@ -109,6 +109,7 @@ export default new Router({
     {
       path: "/app",
       name: "app",
+      redirect: "/app/home",
       component: AppView,
       children: [
         {
