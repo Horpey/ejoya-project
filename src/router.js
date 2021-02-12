@@ -14,6 +14,10 @@ import AboutUs from "./views/AboutUs.vue";
 import Faq from "./views/Faq.vue";
 import ForgotPassword from "./views/ForgotPassword.vue";
 
+// Dashboard
+import App from "./views/dashboard/App.vue";
+import AppView from "./views/dashboard/components/AppView";
+
 Vue.use(Router);
 
 export default new Router({
@@ -101,6 +105,19 @@ export default new Router({
       components: {
         default: CompleteRegisteration,
       },
+    },
+    {
+      path: "/app",
+      name: "app",
+      component: AppView,
+      children: [
+        {
+          // A will be rendered in the second <router-view>
+          // when /your-AppView-url/a is matched
+          path: "home",
+          component: App,
+        },
+      ],
     },
   ],
   scrollBehavior: (to) => {

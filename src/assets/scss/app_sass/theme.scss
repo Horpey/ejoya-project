@@ -1,0 +1,13 @@
+@import "./variables.scss";
+.bg-theme {
+  background-color: $dark;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: $textCol !important;
+}
+.main-content .navbar-top {
+  background-color: $dark;
+}
+.bg-semitheme {
+  background-color: $semidark;
+}

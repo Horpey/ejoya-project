@@ -1,0 +1,63 @@
+@import "./variables.scss";
+@font-face {
+  font-family: "Gills";
+  src: url("/fonts/Gills/GillSansMTPro-Medium.otf") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gills";
+  src: url("/fonts/Gills/GillSansMTPro-Bold.otf") format("woff2");
+  font-weight: bold;
+}
+#dashboardApp {
+  .gills-font,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  input,
+  textarea,
+  a {
+    font-family: "Gills", sans-serif !important;
+  }
+}
+
+.cdView {
+  min-height: 100vh;
+  padding-top: 120px !important;
+}
+.navbar-vertical.navbar-expand-md .navbar-collapse {
+  margin-top: 30px;
+}
+.navbar-vertical.navbar-expand-md .navbar-nav .nav-link {
+  padding: 1rem 1.5rem;
+  border-radius: 0px !important;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  background: $primary;
+  color: white !important;
+  border: 0px;
+}
+.navbar-vertical.navbar-expand-md .navbar-nav .nav-link.active:before {
+  border: 0px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 0px !important;
+}
+
+.navbar-vertical.navbar-expand-md .navbar-brand {
+  text-align: left;
+}
+
+.navbar-vertical .navbar-nav .nav-link > i {
+  background: #ffffff0d;
+  padding: 5px 1px;
+  border-radius: 7px;
+  text-align: center;
+}
