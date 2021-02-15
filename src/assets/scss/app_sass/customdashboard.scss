@@ -20,7 +20,9 @@
   h6,
   p,
   span,
+  label,
   input,
+  button,
   textarea,
   a {
     font-family: "Gills", sans-serif !important;
@@ -60,4 +62,19 @@
   padding: 5px 1px;
   border-radius: 7px;
   text-align: center;
+}
+.displayprogress {
+  position: relative;
+}
+.progressln {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(82, 82, 82);
+  position: relative;
+}
+.progressvs {
+  height: 2px;
+  top: 0;
+  background-color: $primary;
+  position: absolute;
 }

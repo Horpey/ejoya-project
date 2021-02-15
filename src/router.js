@@ -16,7 +16,11 @@ import ForgotPassword from "./views/ForgotPassword.vue";
 
 // Dashboard
 import App from "./views/dashboard/App.vue";
-import AppView from "./views/dashboard/components/AppView";
+import AppView from "./views/dashboard/pages/AppView";
+import MusicMonitor from "./views/dashboard/pages/MusicMonitor";
+import Wallet from "./views/dashboard/pages/Wallet";
+import Settings from "./views/dashboard/pages/Settings";
+import NewRelease from "./views/dashboard/pages/NewRelease";
 
 Vue.use(Router);
 
@@ -113,10 +117,24 @@ export default new Router({
       component: AppView,
       children: [
         {
-          // A will be rendered in the second <router-view>
-          // when /your-AppView-url/a is matched
           path: "home",
           component: App,
+        },
+        {
+          path: "music-monitor",
+          component: MusicMonitor,
+        },
+        {
+          path: "wallet",
+          component: Wallet,
+        },
+        {
+          path: "settings",
+          component: Settings,
+        },
+        {
+          path: "new-release",
+          component: NewRelease,
         },
       ],
     },

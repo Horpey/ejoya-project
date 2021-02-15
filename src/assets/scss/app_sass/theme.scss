@@ -11,3 +11,38 @@
 .bg-semitheme {
   background-color: $semidark;
 }
+.card-rd {
+  background-color: $primary !important;
+  color: white;
+  select {
+    border: 0px;
+  }
+}
+
+.card-cyn {
+  background-color: $cyn !important;
+  color: white;
+  select {
+    border: 0px;
+  }
+}
+.card-dk {
+  background-color: $semidk !important;
+  color: white;
+  select {
+    border: 0px;
+  }
+}
+.card-org {
+  background-color: $org !important;
+  color: white;
+  select {
+    border: 0px;
+  }
+}
+
+.chartcard {
+  .card-body {
+    min-height: 300px;
+  }
+}

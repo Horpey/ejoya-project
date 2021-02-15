@@ -92,30 +92,27 @@
         </div>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a
-              href="/dashboard"
-              aria-current="page"
-              class="nav-link active router-link-active"
+            <router-link to="/app/home" aria-current="page" class="nav-link"
               ><i class="fa fa-home"></i
-              ><span class="nav-link-text">Dashboard</span></a
+              ><span class="nav-link-text">Dashboard</span></router-link
             >
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"
+            <router-link to="/app/music-monitor" class="nav-link"
               ><i class="fa fa-music"></i
-              ><span class="nav-link-text">Music Monitor</span></a
+              ><span class="nav-link-text">Music Monitor</span></router-link
             >
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"
+            <router-link to="/app/wallet" class="nav-link"
               ><i class="fas fa-wallet"></i
-              ><span class="nav-link-text">Wallet</span></a
+              ><span class="nav-link-text">Wallet</span></router-link
             >
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"
+            <router-link to="/app/settings" class="nav-link"
               ><i class="fa fa-cog"></i
-              ><span class="nav-link-text">Account Settings</span></a
+              ><span class="nav-link-text">Account Settings</span></router-link
             >
           </li>
         </ul>
