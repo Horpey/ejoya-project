@@ -36,20 +36,20 @@
 .navbar-vertical.navbar-expand-md .navbar-collapse {
   margin-top: 30px;
 }
-.navbar-vertical.navbar-expand-md .navbar-nav .nav-link {
+.navbar-vertical.navbar-expand-md .dashboardSidebar .nav-link {
   padding: 1rem 1.5rem;
   border-radius: 0px !important;
 }
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .dashboardSidebar .nav-link.active {
   background: $primary;
   color: white !important;
   border: 0px;
 }
-.navbar-vertical.navbar-expand-md .navbar-nav .nav-link.active:before {
+.navbar-vertical.navbar-expand-md .dashboardSidebar .nav-link.active:before {
   border: 0px;
 }
 
-.navbar-nav .nav-item {
+.dashboardSidebar .nav-item {
   margin-right: 0px !important;
 }
 
@@ -57,7 +57,7 @@
   text-align: left;
 }
 
-.navbar-vertical .navbar-nav .nav-link > i {
+.navbar-vertical .dashboardSidebar .nav-link > i {
   background: #ffffff0d;
   padding: 5px 1px;
   border-radius: 7px;
@@ -77,4 +77,69 @@
   top: 0;
   background-color: $primary;
   position: absolute;
+}
+.nshowing {
+  background: white;
+  border: 1px solid gainsboro;
+  padding: 12px 12px;
+  border-radius: 35px;
+  margin-right: 10px;
+  font-size: 13px;
+  line-height: 4;
+  i {
+    color: rgb(201, 201, 201);
+  }
+  &.active {
+    i {
+      color: $primary;
+    }
+  }
+}
+.musicCard {
+  cursor: pointer;
+  transition: 0.5s all !important;
+  &:hover {
+    transform: scale(1.015);
+  }
+}
+.userdisplaypic {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 100px;
+  margin-right: 30px;
+  background-position: center;
+  background-size: cover;
+}
+.dkModal {
+  .modal-content {
+    background-color: $semidk;
+  }
+  .modal-header {
+    border-bottom: 1px solid #ffffff0d;
+    .close span {
+      color: white;
+    }
+  }
+}
+
+.musicListt {
+  color: white;
+
+  padding: 16px 17px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  &.active {
+    background: $primary;
+  }
+  .media {
+    a {
+      color: white;
+    }
+    .media-body {
+      h5 {
+        color: white;
+      }
+    }
+  }
 }

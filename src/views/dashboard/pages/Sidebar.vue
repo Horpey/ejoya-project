@@ -90,7 +90,7 @@
             </div>
           </div>
         </div>
-        <ul class="navbar-nav">
+        <ul class="navbar-nav dashboardSidebar">
           <li class="nav-item">
             <router-link to="/app/home" aria-current="page" class="nav-link"
               ><i class="fa fa-home"></i
