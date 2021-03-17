@@ -7,7 +7,7 @@
             <h3 class="text-white">Schedule a New Release</h3>
             <div class="my-4 displayprogress">
               <div class="progressln"></div>
-              <div class="progressvs" style="width: 25%"></div>
+              <div class="progressvs" :style="`width: ${width}%`"></div>
             </div>
             <button
               v-if="step > 1"
@@ -328,6 +328,7 @@ export default {
     return {
       step: 1,
       sentCompletely: false,
+      width: `25`,
     };
   },
   computed: {
